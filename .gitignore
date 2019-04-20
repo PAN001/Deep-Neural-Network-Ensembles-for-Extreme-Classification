@@ -1,0 +1,12 @@
+trained_models/*.pth
+demo_code/demo_images/*
+.idea/*
+data/*
+test_dir/*
+*.pyc
+__pycache__
+output/*
+test/*
+latest/*
+log/*
+test_res/*

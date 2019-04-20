@@ -1,0 +1,40 @@
+
+--- [START 2017-12-03 03:36:29] ----------------------------------------------------------------
+
+** some experiment setting **
+	SEED         = 123456
+	PROJECT_PATH = ./project
+	out_dir      = ../
+** net setting **
+<class 'net.resnet101.ResNet101'>
+
+
+** dataset setting **
+	len(train_dataset)  = 12118359
+	len(valid_dataset)  = 252934
+	len(train_loader)   = 189349
+	len(valid_loadernum_iters)   = 3953
+	batch_size  = 64
+	iter_accum  = 4
+	batch_size*iter_accum  = 256
+	loading @ initial_checkpoint = ../checkpoint/resnet_once_norm/latest.pth
+
+--- [START 2017-12-03 03:37:22] ----------------------------------------------------------------
+
+** some experiment setting **
+	SEED         = 123456
+	PROJECT_PATH = ./project
+	out_dir      = ../
+** net setting **
+<class 'net.resnet101.ResNet101'>
+
+
+** dataset setting **
+	len(train_dataset)  = 12118359
+	len(valid_dataset)  = 252934
+	len(train_loader)   = 189349
+	len(valid_loadernum_iters)   = 3953
+	batch_size  = 64
+	iter_accum  = 4
+	batch_size*iter_accum  = 256
+	loading @ initial_checkpoint = ../checkpoint/resnet_once_norm/latest.pth
